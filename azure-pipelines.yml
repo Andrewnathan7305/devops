@@ -6,9 +6,10 @@
 trigger:
 - main
 
-pool: andrew
+pool: dev
 
 steps:
+
 - task: Maven@4
   inputs:
     mavenPomFile: 'pom.xml'
