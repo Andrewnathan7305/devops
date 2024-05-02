@@ -9,7 +9,7 @@ trigger:
 pool: dev
 
 steps:
-- task: Maven@4
+- task: Maven@1
   inputs:
     mavenPomFile: 'pom.xml'
     goals: 'compile'
